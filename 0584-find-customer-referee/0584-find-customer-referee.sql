@@ -1,0 +1,10 @@
+
+
+SELECT
+    NAME
+FROM
+    CUSTOMER
+WHERE
+    NVL(REFEREE_ID, 1) != 2
+ORDER BY 
+    1 DESC;
